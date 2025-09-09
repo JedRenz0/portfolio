@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+    position: fixed; /* Make the navbar stick to the top */
+    top: 0;
+    width: 100%; /* Full width */
+    background-color: #192338; /* Translucent black background */
+    color: white; /* White text for contrast */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between brand and links */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Add padding for spacing */
+    z-index: 10; /* Ensure it stays above other elements */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for the brand */
+    font-weight: bold; /* Bold text */
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+  }
+  
+  .navbar-links {
+    display: flex; /* Flexbox for horizontal layout */
+    gap: 15px; /* Add spacing between links */
+  }
+  
+  .navbar-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    font-size: 1rem; /* Standard font size */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar-link:hover {
+    color: #1abc9c; /* Change color on hover */
+  }
