@@ -88,4 +88,6 @@ a[href^="#"], section a {
   position: relative;
   z-index: -1;
 }
-
+.highlight{
+  color:#8FB3E2;
+}
