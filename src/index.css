@@ -91,3 +91,43 @@ a[href^="#"], section a {
 .highlight{
   color:#8FB3E2;
 }
+
+.hero-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 50%;
+  border: 4px solid #1E2E4F;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hero-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-photo {
+    margin-top: 20px;
+  }
+}
+
